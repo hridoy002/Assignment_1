@@ -28,9 +28,88 @@ body{
     border-radius: 5px;
     margin-top: 10px;
     display: inline-block;
+    color: white;
 }
 
 .first_img img{
     width: 500px;
     padding-left: 80px;
+}
+
+/********************Start My mission Section******************/
+.my-mission h1{
+    font-size: 55px;
+    text-align: center;
+}
+
+.mission-card{
+    display: flex;
+    
+    
+}
+.card1{
+    background-color: #EDF5F6;
+    margin: 30px;
+    border-radius: 30px;
+    width: 25%;
+    padding: 25px;
+}
+.card1 img{
+    width: 100%;
+}
+.card2{
+    background-color: #FFEEEE;
+    margin: 30px;
+    border-radius: 30px;
+    width: 25%;
+    padding: 25px;
+}
+.card2 img{
+    width: 100%;
+}
+.card3{
+    background-color: #FFF4D6;
+    margin: 30px;
+    border-radius: 30px;
+    width: 25%;
+    padding: 25px;
+
+}
+.card3 img{
+    width: 100%;
+}
+/*-------------Developer section Start-------------*/
+.developer{
+    display: flex;
+    margin-top: 80px;
+}
+.coding-img{
+    background-image: url(./img/shape-1.png);
+}
+.coding-img img{
+    max-width: 70vh;
+    margin-left: 30px;
+}
+.developlimits{
+    width: 100%;
+    margin-left: 100px;
+    padding: 50px;
+}
+.developlimits h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.developlimits p{
+    font-size: 20px;
+    font-weight: 900;
+   }
+   .developlimits a{
+    text-decoration: none;
+    color: white;
+    padding:15px 32px;
+    background-color: orangered;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+
 }
