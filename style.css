@@ -44,6 +44,9 @@ body{
 
 .mission-card{
     display: flex;
+    width:150vh;
+    box-sizing: border-box;
+    margin-left: 28vh;
     
     
 }
@@ -84,9 +87,14 @@ body{
     margin-top: 80px;
 }
 
+.coding-img{
+    width: 50%;
+    padding-left: 50px;
+}
 .coding-img img{
-    max-width: 70vh;
+    max-width: 60vh;
     margin-left: 30px;
+
 }
 .developlimits{
     width: 100%;
@@ -111,7 +119,7 @@ body{
     margin-top: 10px;
 }
 
-/*--------Community Section-----------*/
+/*---------------------------Community Section---------------------------*/
 .community-sec{
     margin-top: 100px;
     display: flex;
@@ -143,6 +151,7 @@ body{
 }
 .community-img img{
     width: 60%;
+    padding-left: 25%;
 }
 /*------------Start Partner Sec------------------*/
 ..partner-sec{
@@ -200,7 +209,7 @@ footer{
 .foot_quete{
     width: 50%;
     text-align: left;
-    padding: 20px;
+    padding: 25px 100px;
     color: gray;
 }
 .foot_quete p{
